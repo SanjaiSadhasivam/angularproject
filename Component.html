@@ -1,0 +1,21 @@
+import { Component } from '@angular/core';  
+import fruitsName from './jsonfile.html';  
+    
+interface fruits {  
+    p_id: 1;  
+    p_cost: String;  
+    p_availability: String;  
+    p_details: String;
+    p_category: String;	
+}  
+    
+@Component({  
+  selector: 'my-app',  
+  templateUrl: './component.html',  
+  styleUrls: [ './app.component.css' ]  
+})  
+export class AppComponent    
+  name = 'Angular';  
+    
+  fruits: fruit[] = fruitname;  
+}  
